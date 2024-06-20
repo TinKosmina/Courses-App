@@ -1,0 +1,84 @@
+.registration-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f2f5;
+}
+
+.registration-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f2f5;
+  margin-bottom: 100px;
+}
+
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  background: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  height: 400px;
+}
+
+.registration-page h2 {
+  margin-bottom: 20px;
+  font-size: 32px;
+  color: #333;
+}
+
+.registration-form label {
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+  width: 100%;
+}
+
+.registration-form input {
+  width: 286px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.registration-form button {
+  width: 286px;
+  padding: 10px;
+  margin: 15px 0 20px 0;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.registration-form button:hover {
+  background-color: #0d4582;
+}
+
+.registration-form .login {
+  margin-top: 20px;
+  color: #333;
+}
+
+.registration-form .login a {
+  color: #333;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.registration-form .login a:hover {
+  text-decoration: none;
+  color: #0d4582;
+}

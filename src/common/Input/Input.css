@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container label {
+  margin-top: 20px;
+}
+
+.container .error-border {
+  border-color: red;
+}
+
+.container .error-text {
+  color: red;
+  font-size: 12px;
+  margin-top: -15px;
+}
+
+.error-container {
+  display: flex;
+  justify-content: start;
+  width: 100%;
+}
